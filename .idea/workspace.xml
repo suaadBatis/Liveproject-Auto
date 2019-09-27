@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3387c9-ddef-45a3-9d65-d5a1beb0b729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Lsogs/Appium1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeScreen/HistoryList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/HomeScreen/HistoryList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HomeScreen/HistoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeScreen/HistoryList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HomeScreen/HistoryList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="148">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,10 +83,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="644" column="16" selection-start-line="644" selection-start-column="16" selection-end-line="644" selection-end-column="16" />
+              <caret line="654" column="16" selection-start-line="654" selection-start-column="16" selection-end-line="654" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -113,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/java/HistoryList.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeScreen.java" />
         <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomeScreen/HistoryList.java" />
       </list>
     </option>
@@ -146,40 +167,6 @@
             <path>
               <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.10.3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.10.3" type="462c0819:PsiDirectoryNode" />
-              <item name="fileHashes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="caches" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,14 +194,24 @@
               <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LiveProject2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LiveProject2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,21 +382,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewApp - 2019.09.23 at 15h 38m 04s.xml">
-      <configuration name="NewApp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewApp - 2019.09.23 at 15h 38m 31s.xml">
-      <configuration name="NewApp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewApp - 2019.09.23 at 15h 40m 15s.xml">
-      <configuration name="NewApp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewApp - 2019.09.23 at 15h 40m 30s.xml">
-      <configuration name="NewApp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewApp1 - 2019.09.23 at 15h 40m 59s.xml">
-      <configuration name="NewApp1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="NewApp1 - 2019.09.23 at 15h 41m 18s.xml">
       <configuration name="NewApp1" configurationId="TestNG" />
     </history-entry>
@@ -407,6 +389,27 @@
       <configuration name="HomeScreen" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HistoryList - 2019.09.23 at 20h 05m 16s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 38m 03s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 39m 33s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 47m 10s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 49m 18s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 50m 01s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 50m 34s.xml">
+      <configuration name="HistoryList" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HistoryList - 2019.09.25 at 20h 52m 34s.xml">
       <configuration name="HistoryList" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -423,7 +426,7 @@
     <frame x="0" y="23" width="1440" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +441,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42156863" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42156863" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32913166" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32913166" />
@@ -563,10 +566,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeScreen/HistoryList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="148">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
