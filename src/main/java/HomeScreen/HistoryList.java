@@ -10,7 +10,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
+import utils.Utils;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -28,24 +28,26 @@ public class HistoryList {
                         .withArgument(GeneralServerFlag.LOCAL_TIMEZONE)
                         .withLogFile(new File (System.getProperty("user.dir")+"/src/test/resources/Lsogs/Appium1.log")));
         service.start (); // check the logs folder
+
+
+
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities ();
         desiredCapabilities.setCapability ("platformName", "android");
         desiredCapabilities.setCapability ("platformVersion", "8.0");
         desiredCapabilities.setCapability ("deviceName", "Huaweip10lite");
-        desiredCapabilities.setCapability ("app", "/Users/suaadbatis/Desktop/app.apk");
+        desiredCapabilities.setCapability ("app", "/Users/suaadbatis/Desktop/Appiumpro/app-release.apk");
 
         URL remoteUrl = new URL ("http://localhost:4723/wd/hub");
 
         driver = new AndroidDriver (remoteUrl, desiredCapabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        if (driver.findElementById("com.android.packageinstaller:id/permission_allow_button").isDisplayed()) {
-            driver.findElementById ("com.android.packageinstaller:id/permission_allow_button").click ();
-        }
+
     }
     @Test
-    public void sampleTest() {
-        MobileElement el1 = (MobileElement) driver.findElementByXPath("(//android.widget.ImageView[@content-desc=\"Banner\"])[1]");
+    public void HomePage() {
+        MobileElement el1 = (MobileElement) driver.findElementById ("com.moviedb.android.moviedb:id/backdrop_image_view");
         el1.click();
+        Utils.sleep (2000);
     }
 
     @After
