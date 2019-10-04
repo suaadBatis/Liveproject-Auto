@@ -1,0 +1,239 @@
+2019-10-04 01:31:03:267 [Appium] Welcome to Appium v1.13.0
+2019-10-04 01:31:03:268 [Appium] Non-default server args:
+2019-10-04 01:31:03:268 [Appium]   logFile: /Users/suaadbatis/Downloads/LiveProject2019/src/test/resources/Logs/Homepage.log
+2019-10-04 01:31:03:269 [Appium]   localTimezone: true
+2019-10-04 01:31:03:313 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-10-04 01:31:06:988 [HTTP] --> GET /wd/hub/status
+2019-10-04 01:31:06:989 [HTTP] {}
+2019-10-04 01:31:06:992 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-10-04 01:31:06:993 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-10-04 01:31:07:001 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2019-10-04 01:31:07:002 [HTTP] 
+2019-10-04 01:31:07:479 [HTTP] --> POST /wd/hub/session
+2019-10-04 01:31:07:479 [HTTP] {"desiredCapabilities":{"app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","platformName":"Android","deviceName":"Huaweip10lite","platformVersion":"8.0"},"capabilities":{"alwaysMatch":{"appium:app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","appium:deviceName":"Huaweip10lite","platformName":"android","appium:platformVersion":"8.0"},"firstMatch":[{}]}}
+2019-10-04 01:31:07:480 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","platformName":"Android","deviceName":"Huaweip10lite","platformVersion":"8.0"},null,{"alwaysMatch":{"appium:app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","appium:deviceName":"Huaweip10lite","platformName":"android","appium:platformVersion":"8.0"},"firstMatch":[{}]}]
+2019-10-04 01:31:07:480 [BaseDriver] Event 'newSessionRequested' logged at 1570141867480 (01:31:07 GMT+0300 (+03))
+2019-10-04 01:31:07:488 [Appium] 
+2019-10-04 01:31:07:488 [Appium] ======================================================================
+2019-10-04 01:31:07:488 [Appium]   DEPRECATION WARNING:
+2019-10-04 01:31:07:489 [Appium] 
+2019-10-04 01:31:07:489 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-10-04 01:31:07:489 [Appium]   capabilities for this Android session
+2019-10-04 01:31:07:489 [Appium] 
+2019-10-04 01:31:07:489 [Appium]   Setting 'automationName=UiAutomator1' by default and using the 
+2019-10-04 01:31:07:490 [Appium]   UiAutomator1 Driver
+2019-10-04 01:31:07:490 [Appium] 
+2019-10-04 01:31:07:490 [Appium]   The next minor version of Appium (1.14.x) will set 
+2019-10-04 01:31:07:490 [Appium]   'automationName=UiAutomator2' by default and use the UiAutomator2 
+2019-10-04 01:31:07:491 [Appium]   Driver
+2019-10-04 01:31:07:491 [Appium] 
+2019-10-04 01:31:07:491 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-10-04 01:31:07:491 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-10-04 01:31:07:491 [Appium]   platforms
+2019-10-04 01:31:07:492 [Appium] 
+2019-10-04 01:31:07:492 [Appium]   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+2019-10-04 01:31:07:492 [Appium]   Android drivers, please add 'automationName=UiAutomator1' to your 
+2019-10-04 01:31:07:492 [Appium]   desired capabilities
+2019-10-04 01:31:07:492 [Appium] 
+2019-10-04 01:31:07:493 [Appium]   For more information about drivers, please visit 
+2019-10-04 01:31:07:493 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-10-04 01:31:07:493 [Appium]   'Drivers' menu
+2019-10-04 01:31:07:493 [Appium] 
+2019-10-04 01:31:07:494 [Appium] ======================================================================
+2019-10-04 01:31:07:494 [Appium] 
+2019-10-04 01:31:07:494 [Appium] Setting automation to 'UiAutomator1'. 
+2019-10-04 01:31:07:494 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+2019-10-04 01:31:07:650 [Appium] Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+2019-10-04 01:31:07:651 [Appium] Capabilities:
+2019-10-04 01:31:07:651 [Appium]   platformName: android
+2019-10-04 01:31:07:652 [Appium]   app: /Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk
+2019-10-04 01:31:07:652 [Appium]   deviceName: Huaweip10lite
+2019-10-04 01:31:07:653 [Appium]   platformVersion: 8.0
+2019-10-04 01:31:07:657 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"/Users/suaadbatis/D... were provided
+2019-10-04 01:31:07:657 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-10-04 01:31:07:667 [BaseDriver] Session created with session id: b520e9d4-29d8-4228-85e7-779c60c4b51b
+2019-10-04 01:31:07:691 [ADB] Found 2 'build-tools' folders under '/Users/suaadbatis/Library/Android/sdk' (newest first):
+2019-10-04 01:31:07:691 [ADB]     /Users/suaadbatis/Library/Android/sdk/build-tools/28.0.3
+2019-10-04 01:31:07:691 [ADB]     /Users/suaadbatis/Library/Android/sdk/build-tools/27.0.3
+2019-10-04 01:31:07:730 [ADB] Using 'adb' from '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb'
+2019-10-04 01:31:07:733 [AndroidDriver] Retrieving device list
+2019-10-04 01:31:07:734 [ADB] Trying to find a connected android device
+2019-10-04 01:31:07:735 [ADB] Getting connected devices...
+2019-10-04 01:31:07:762 [ADB] 1 device(s) connected
+2019-10-04 01:31:07:763 [AndroidDriver] Looking for a device with Android '8.0'
+2019-10-04 01:31:07:763 [ADB] Setting device id to 2XJDU18301003221
+2019-10-04 01:31:07:763 [ADB] Getting device platform version
+2019-10-04 01:31:07:764 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.build.version.release'
+2019-10-04 01:31:07:831 [ADB] Current device property 'ro.build.version.release': 8.0.0
+2019-10-04 01:31:07:832 [AndroidDriver] Using device: 2XJDU18301003221
+2019-10-04 01:31:07:834 [ADB] Using 'adb' from '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb'
+2019-10-04 01:31:07:835 [ADB] Setting device id to 2XJDU18301003221
+2019-10-04 01:31:07:836 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.build.version.sdk'
+2019-10-04 01:31:07:888 [ADB] Current device property 'ro.build.version.sdk': 26
+2019-10-04 01:31:07:889 [ADB] Device API level: 26
+2019-10-04 01:31:07:889 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-10-04 01:31:07:893 [BaseDriver] Using local app '/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk'
+2019-10-04 01:31:07:901 [AndroidDriver] Checking whether app is actually present
+2019-10-04 01:31:07:905 [AndroidDriver] Starting Android session
+2019-10-04 01:31:07:907 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 wait-for-device'
+2019-10-04 01:31:07:940 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell echo ping'
+2019-10-04 01:31:07:992 [AndroidDriver] Pushing settings apk to device...
+2019-10-04 01:31:07:995 [ADB] Getting install status for io.appium.settings
+2019-10-04 01:31:07:996 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package io.appium.settings'
+2019-10-04 01:31:08:075 [ADB] 'io.appium.settings' is installed
+2019-10-04 01:31:08:076 [ADB] Getting package info for 'io.appium.settings'
+2019-10-04 01:31:08:077 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package io.appium.settings'
+2019-10-04 01:31:08:149 [ADB] Using 'aapt' from '/Users/suaadbatis/Library/Android/sdk/build-tools/28.0.3/aapt'
+2019-10-04 01:31:08:160 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (18 > 17)
+2019-10-04 01:31:08:161 [ADB] There is no need to install/upgrade '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2019-10-04 01:31:08:162 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-10-04 01:31:08:162 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell 'pgrep --help; echo $?''
+2019-10-04 01:31:08:209 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell pgrep \^appium\\.settings\$'
+2019-10-04 01:31:08:297 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-10-04 01:31:08:298 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell appops set io.appium.settings android\:mock_location allow'
+2019-10-04 01:31:08:369 [Logcat] Starting logcat capture
+2019-10-04 01:31:08:429 [ADB] Getting device platform version
+2019-10-04 01:31:08:430 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.build.version.release'
+2019-10-04 01:31:08:492 [ADB] Current device property 'ro.build.version.release': 8.0.0
+2019-10-04 01:31:08:493 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell wm size'
+2019-10-04 01:31:09:374 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.product.model'
+2019-10-04 01:31:09:423 [ADB] Current device property 'ro.product.model': WAS-LX1A
+2019-10-04 01:31:09:423 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.product.manufacturer'
+2019-10-04 01:31:09:472 [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2019-10-04 01:31:09:472 [AndroidDriver] Parsing package and activity from app manifest
+2019-10-04 01:31:09:474 [ADB] Using 'apkanalyzer' from '/Users/suaadbatis/Library/Android/sdk/tools/bin/apkanalyzer'
+2019-10-04 01:31:09:475 [ADB] Starting '/Users/suaadbatis/Library/Android/sdk/tools/bin/apkanalyzer' with args ["-h","manifest","print","/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk"]
+2019-10-04 01:31:09:886 [ADB] Using the alternative activity name detection method because of: Command '/Users/suaadbatis/Library/Android/sdk/tools/bin/apkanalyzer -h manifest print /Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk' exited with code 1
+2019-10-04 01:31:09:887 [ADB] Extracting package and launch activity from manifest
+2019-10-04 01:31:09:902 [ADB] Package name: 'com.moviedb.android.moviedb'
+2019-10-04 01:31:09:902 [ADB] Main activity name: 'com.moviedb.android.moviedb.view.activity.MovieListActivity'
+2019-10-04 01:31:09:903 [AndroidDriver] Parsed package and activity are: com.moviedb.android.moviedb/com.moviedb.android.moviedb.view.activity.MovieListActivity
+2019-10-04 01:31:09:904 [ADB] Getting install status for com.moviedb.android.moviedb
+2019-10-04 01:31:09:905 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package com.moviedb.android.moviedb'
+2019-10-04 01:31:09:993 [ADB] 'com.moviedb.android.moviedb' is installed
+2019-10-04 01:31:09:994 [ADB] Getting install status for com.moviedb.android.moviedb
+2019-10-04 01:31:09:994 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package com.moviedb.android.moviedb'
+2019-10-04 01:31:10:052 [ADB] 'com.moviedb.android.moviedb' is installed
+2019-10-04 01:31:10:052 [ADB] Getting package info for 'com.moviedb.android.moviedb'
+2019-10-04 01:31:10:053 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package com.moviedb.android.moviedb'
+2019-10-04 01:31:10:124 [ADB] The version name of the installed 'com.moviedb.android.moviedb' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+2019-10-04 01:31:10:125 [ADB] There is no need to install/upgrade '/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk'
+2019-10-04 01:31:10:126 [AndroidDriver] Performing fast reset on 'com.moviedb.android.moviedb'
+2019-10-04 01:31:10:127 [ADB] Getting install status for com.moviedb.android.moviedb
+2019-10-04 01:31:10:129 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package com.moviedb.android.moviedb'
+2019-10-04 01:31:10:193 [ADB] 'com.moviedb.android.moviedb' is installed
+2019-10-04 01:31:10:194 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell am force-stop com.moviedb.android.moviedb'
+2019-10-04 01:31:10:282 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell pm clear com.moviedb.android.moviedb'
+2019-10-04 01:31:11:192 [AndroidDriver] Performed fast reset on the installed 'com.moviedb.android.moviedb' application (stop and clear)
+2019-10-04 01:31:11:193 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell rm -rf /data/local/tmp/strings.json'
+2019-10-04 01:31:11:253 [AndroidDriver] Extracting strings from apk
+2019-10-04 01:31:11:253 [AndroidDriver] /Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk
+2019-10-04 01:31:11:254 [AndroidDriver] null
+2019-10-04 01:31:11:254 [AndroidDriver] /var/folders/_f/283lms1509v2k12xyw4rkrmh0000gn/T/com.moviedb.android.moviedb
+2019-10-04 01:31:11:255 [ADB] Extracting strings from for language: default
+2019-10-04 01:31:11:292 [ADB] Successfully extracted 75 strings from '/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk' resources for '(default)' configuration
+2019-10-04 01:31:11:299 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell mkdir -p /data/local'
+2019-10-04 01:31:11:350 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 push /var/folders/_f/283lms1509v2k12xyw4rkrmh0000gn/T/com.moviedb.android.moviedb/strings.json /data/local/tmp'
+2019-10-04 01:31:11:382 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-10-04 01:31:11:383 [ADB] Forwarding system: 4724 to device: 4724
+2019-10-04 01:31:11:383 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 forward tcp\:4724 tcp\:4724'
+2019-10-04 01:31:11:408 [UiAutomator] Starting UiAutomator
+2019-10-04 01:31:11:409 [UiAutomator] Moving to state 'starting'
+2019-10-04 01:31:11:412 [UiAutomator] Parsing uiautomator jar
+2019-10-04 01:31:11:413 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-10-04 01:31:11:413 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell mkdir -p /data/local'
+2019-10-04 01:31:11:470 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 push /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+2019-10-04 01:31:11:507 [ADB] Attempting to kill all uiautomator processes
+2019-10-04 01:31:11:508 [ADB] Getting IDs of all 'uiautomator' processes
+2019-10-04 01:31:11:508 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell pgrep \^uiautomator\$'
+2019-10-04 01:31:11:600 [ADB] No 'uiautomator' process has been found
+2019-10-04 01:31:11:600 [UiAutomator] Starting UIAutomator
+2019-10-04 01:31:11:601 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","2XJDU18301003221","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.moviedb.android.moviedb","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-10-04 01:31:12:459 [UiAutomator] Moving to state 'online'
+2019-10-04 01:31:12:463 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-10-04 01:31:12:464 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-10-04 01:31:12:466 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-10-04 01:31:12:467 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys window'
+2019-10-04 01:31:12:472 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-10-04 01:31:12:527 [AndroidDriver] Screen already unlocked, doing nothing
+2019-10-04 01:31:12:529 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell am start -W -n com.moviedb.android.moviedb/com.moviedb.android.moviedb.view.activity.MovieListActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-10-04 01:31:13:364 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.moviedb.android.moviedb' and activity: 'com.moviedb.android.moviedb.view.activity.MovieListActivity' to be focused
+2019-10-04 01:31:13:365 [ADB] Possible activities, to be checked: 'com.moviedb.android.moviedb.view.activity.MovieListActivity', 'com.moviedb.android.moviedb.com.moviedb.android.moviedb.view.activity.MovieListActivity'
+2019-10-04 01:31:13:366 [ADB] Getting focused package and activity
+2019-10-04 01:31:13:366 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys window windows'
+2019-10-04 01:31:13:432 [ADB] Found package: 'com.moviedb.android.moviedb' and fully qualified activity name : 'com.moviedb.android.moviedb.view.activity.MovieListActivity'
+2019-10-04 01:31:13:434 [Appium] New AndroidDriver session created successfully, session b520e9d4-29d8-4228-85e7-779c60c4b51b added to master session list
+2019-10-04 01:31:13:436 [BaseDriver] Event 'newSessionStarted' logged at 1570141873435 (01:31:13 GMT+0300 (+03))
+2019-10-04 01:31:13:438 [W3C (b520e9d4)] Cached the protocol value 'W3C' for the new session b520e9d4-29d8-4228-85e7-779c60c4b51b
+2019-10-04 01:31:13:439 [W3C (b520e9d4)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","deviceName":"Huaweip10lite","platformVersion":"8.0"},"platformName":"android","app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","deviceName":"2XJDU18301003221","platformVersion":"8.0.0","deviceUDID":"2XJDU18301003221","deviceScreenSize":"1080x1920","deviceModel":"WAS-LX1A","deviceManufacturer":"HUAWEI","appPackage":"com.moviedb.android.moviedb","appWaitPackage":"com.moviedb.android.moviedb","appActivity":"com.moviedb.android.moviedb.view.activity.MovieListActivity","appWaitActivity":"com.moviedb.android.moviedb.view.activity.MovieListActivity"}}
+2019-10-04 01:31:13:441 [HTTP] <-- POST /wd/hub/session 200 5961 ms - 954
+2019-10-04 01:31:13:441 [HTTP] 
+2019-10-04 01:31:13:515 [HTTP] --> GET /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b
+2019-10-04 01:31:13:515 [HTTP] {}
+2019-10-04 01:31:13:516 [W3C (b520e9d4)] Calling AppiumDriver.getSession() with args: ["b520e9d4-29d8-4228-85e7-779c60c4b51b"]
+2019-10-04 01:31:13:540 [W3C (b520e9d4)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","deviceName":"Huaweip10lite","platformVersion":"8.0"},"platformName":"android","app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","deviceName":"2XJDU18301003221","platformVersion":"8.0.0","deviceUDID":"2XJDU18301003221","deviceScreenSize":"1080x1920","deviceModel":"WAS-LX1A","deviceManufacturer":"HUAWEI","appPackage":"com.moviedb.android.moviedb","appWaitPackage":"com.moviedb.android.moviedb","appActivity":"com.moviedb.android.moviedb.view.activity.MovieListActivity","appWaitActivity":"com.moviedb.android.moviedb.view.activity.MovieListActivity"}
+2019-10-04 01:31:13:541 [HTTP] <-- GET /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b 200 26 ms - 886
+2019-10-04 01:31:13:541 [HTTP] 
+2019-10-04 01:31:13:548 [HTTP] --> GET /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b
+2019-10-04 01:31:13:549 [HTTP] {}
+2019-10-04 01:31:13:549 [W3C (b520e9d4)] Calling AppiumDriver.getSession() with args: ["b520e9d4-29d8-4228-85e7-779c60c4b51b"]
+2019-10-04 01:31:13:551 [W3C (b520e9d4)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","deviceName":"Huaweip10lite","platformVersion":"8.0"},"platformName":"android","app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","deviceName":"2XJDU18301003221","platformVersion":"8.0.0","deviceUDID":"2XJDU18301003221","deviceScreenSize":"1080x1920","deviceModel":"WAS-LX1A","deviceManufacturer":"HUAWEI","appPackage":"com.moviedb.android.moviedb","appWaitPackage":"com.moviedb.android.moviedb","appActivity":"com.moviedb.android.moviedb.view.activity.MovieListActivity","appWaitActivity":"com.moviedb.android.moviedb.view.activity.MovieListActivity"}
+2019-10-04 01:31:13:552 [HTTP] <-- GET /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b 200 3 ms - 886
+2019-10-04 01:31:13:552 [HTTP] 
+2019-10-04 01:31:13:560 [HTTP] --> POST /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b/timeouts
+2019-10-04 01:31:13:560 [HTTP] {"implicit":5000}
+2019-10-04 01:31:13:560 [W3C (b520e9d4)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"b520e9d4-29d8-4228-85e7-779c60c4b51b"]
+2019-10-04 01:31:13:561 [BaseDriver] W3C timeout argument: {"implicit":5000}}
+2019-10-04 01:31:13:562 [BaseDriver] Set implicit wait to 5000ms
+2019-10-04 01:31:13:562 [W3C (b520e9d4)] Responding to client with driver.timeouts() result: null
+2019-10-04 01:31:13:563 [HTTP] <-- POST /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b/timeouts 200 3 ms - 14
+2019-10-04 01:31:13:563 [HTTP] 
+2019-10-04 01:31:13:567 [HTTP] --> DELETE /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b
+2019-10-04 01:31:13:567 [HTTP] {}
+2019-10-04 01:31:13:567 [W3C (b520e9d4)] Calling AppiumDriver.deleteSession() with args: ["b520e9d4-29d8-4228-85e7-779c60c4b51b"]
+2019-10-04 01:31:13:568 [BaseDriver] Event 'quitSessionRequested' logged at 1570141873568 (01:31:13 GMT+0300 (+03))
+2019-10-04 01:31:13:568 [Appium] Removing session b520e9d4-29d8-4228-85e7-779c60c4b51b from our master session list
+2019-10-04 01:31:13:569 [AndroidDriver] Shutting down Android driver
+2019-10-04 01:31:13:594 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell am force-stop com.moviedb.android.moviedb'
+2019-10-04 01:31:13:732 [ADB] Pressing the HOME button
+2019-10-04 01:31:13:733 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell input keyevent 3'
+2019-10-04 01:31:14:627 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2019-10-04 01:31:14:634 [AndroidBootstrap] Received command result from bootstrap
+2019-10-04 01:31:14:635 [UiAutomator] Shutting down UiAutomator
+2019-10-04 01:31:14:636 [UiAutomator] Moving to state 'stopping'
+2019-10-04 01:31:14:638 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2019-10-04 01:31:14:639 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2019-10-04 01:31:14:639 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2019-10-04 01:31:14:640 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2019-10-04 01:31:14:640 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2019-10-04 01:31:14:640 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2019-10-04 01:31:14:640 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2019-10-04 01:31:14:641 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2019-10-04 01:31:14:641 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2019-10-04 01:31:14:641 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2019-10-04 01:31:14:642 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2019-10-04 01:31:14:642 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2019-10-04 01:31:14:642 [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2019-10-04 01:31:14:642 [AndroidBootstrap] [UIAUTO STDOUT] Time: 2.193
+2019-10-04 01:31:14:643 [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2019-10-04 01:31:14:643 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2019-10-04 01:31:14:645 [UiAutomator] UiAutomator shut down normally
+2019-10-04 01:31:14:645 [UiAutomator] Moving to state 'stopped'
+2019-10-04 01:31:14:646 [ADB] Attempting to kill all uiautomator processes
+2019-10-04 01:31:14:646 [ADB] Getting IDs of all 'uiautomator' processes
+2019-10-04 01:31:14:646 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell pgrep \^uiautomator\$'
+2019-10-04 01:31:14:730 [ADB] No 'uiautomator' process has been found
+2019-10-04 01:31:14:731 [UiAutomator] Moving to state 'stopped'
+2019-10-04 01:31:14:732 [Logcat] Stopping logcat capture
+2019-10-04 01:31:14:736 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell am force-stop io.appium.unlock'
+2019-10-04 01:31:14:808 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-10-04 01:31:14:810 [BaseDriver] Event 'quitSessionFinished' logged at 1570141874810 (01:31:14 GMT+0300 (+03))
+2019-10-04 01:31:14:811 [W3C (b520e9d4)] Received response: null
+2019-10-04 01:31:14:811 [W3C (b520e9d4)] But deleting session, so not returning
+2019-10-04 01:31:14:811 [W3C (b520e9d4)] Responding to client with driver.deleteSession() result: null
+2019-10-04 01:31:14:812 [HTTP] <-- DELETE /wd/hub/session/b520e9d4-29d8-4228-85e7-779c60c4b51b 200 1245 ms - 14
+2019-10-04 01:31:14:813 [HTTP] 
+2019-10-04 01:31:14:816 [Appium] Received SIGTERM - shutting down
+2019-10-04 01:31:14:819 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.afterWrite (net.js:868:14)

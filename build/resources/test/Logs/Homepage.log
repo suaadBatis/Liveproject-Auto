@@ -1,0 +1,130 @@
+2019-09-27 15:14:51:148 [Appium] Welcome to Appium v1.13.0
+2019-09-27 15:14:51:149 [Appium] Non-default server args:
+2019-09-27 15:14:51:150 [Appium]   logFile: /Users/suaadbatis/Downloads/LiveProject2019/src/test/resources/Logs/Homepage.log
+2019-09-27 15:14:51:150 [Appium]   localTimezone: true
+2019-09-27 15:14:51:199 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-09-27 15:14:54:805 [HTTP] --> GET /wd/hub/status
+2019-09-27 15:14:54:805 [HTTP] {}
+2019-09-27 15:14:54:807 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-09-27 15:14:54:808 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-09-27 15:14:54:812 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2019-09-27 15:14:54:812 [HTTP] 
+2019-09-27 15:14:55:286 [HTTP] --> POST /wd/hub/session
+2019-09-27 15:14:55:286 [HTTP] {"desiredCapabilities":{"app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","platformName":"Android","deviceName":"Huaweip10lite","platformVersion":"8.0"},"capabilities":{"alwaysMatch":{"appium:app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","appium:deviceName":"Huaweip10lite","platformName":"android","appium:platformVersion":"8.0"},"firstMatch":[{}]}}
+2019-09-27 15:14:55:286 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","platformName":"Android","deviceName":"Huaweip10lite","platformVersion":"8.0"},null,{"alwaysMatch":{"appium:app":"/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk","appium:deviceName":"Huaweip10lite","platformName":"android","appium:platformVersion":"8.0"},"firstMatch":[{}]}]
+2019-09-27 15:14:55:287 [BaseDriver] Event 'newSessionRequested' logged at 1569586495287 (15:14:55 GMT+0300 (+03))
+2019-09-27 15:14:55:296 [Appium] 
+2019-09-27 15:14:55:297 [Appium] ======================================================================
+2019-09-27 15:14:55:297 [Appium]   DEPRECATION WARNING:
+2019-09-27 15:14:55:297 [Appium] 
+2019-09-27 15:14:55:297 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-09-27 15:14:55:298 [Appium]   capabilities for this Android session
+2019-09-27 15:14:55:298 [Appium] 
+2019-09-27 15:14:55:298 [Appium]   Setting 'automationName=UiAutomator1' by default and using the 
+2019-09-27 15:14:55:298 [Appium]   UiAutomator1 Driver
+2019-09-27 15:14:55:298 [Appium] 
+2019-09-27 15:14:55:298 [Appium]   The next minor version of Appium (1.14.x) will set 
+2019-09-27 15:14:55:298 [Appium]   'automationName=UiAutomator2' by default and use the UiAutomator2 
+2019-09-27 15:14:55:298 [Appium]   Driver
+2019-09-27 15:14:55:298 [Appium] 
+2019-09-27 15:14:55:299 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-09-27 15:14:55:299 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-09-27 15:14:55:299 [Appium]   platforms
+2019-09-27 15:14:55:299 [Appium] 
+2019-09-27 15:14:55:299 [Appium]   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+2019-09-27 15:14:55:299 [Appium]   Android drivers, please add 'automationName=UiAutomator1' to your 
+2019-09-27 15:14:55:299 [Appium]   desired capabilities
+2019-09-27 15:14:55:299 [Appium] 
+2019-09-27 15:14:55:300 [Appium]   For more information about drivers, please visit 
+2019-09-27 15:14:55:300 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-09-27 15:14:55:300 [Appium]   'Drivers' menu
+2019-09-27 15:14:55:300 [Appium] 
+2019-09-27 15:14:55:300 [Appium] ======================================================================
+2019-09-27 15:14:55:300 [Appium] 
+2019-09-27 15:14:55:300 [Appium] Setting automation to 'UiAutomator1'. 
+2019-09-27 15:14:55:301 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+2019-09-27 15:14:55:478 [Appium] Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+2019-09-27 15:14:55:479 [Appium] Capabilities:
+2019-09-27 15:14:55:479 [Appium]   platformName: android
+2019-09-27 15:14:55:479 [Appium]   app: /Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk
+2019-09-27 15:14:55:479 [Appium]   deviceName: Huaweip10lite
+2019-09-27 15:14:55:480 [Appium]   platformVersion: 8.0
+2019-09-27 15:14:55:483 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"/Users/suaadbatis/D... were provided
+2019-09-27 15:14:55:484 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-09-27 15:14:55:489 [BaseDriver] Session created with session id: d9e59fb4-cdd7-4ac7-b77e-3d71b4736465
+2019-09-27 15:14:55:513 [ADB] Found 2 'build-tools' folders under '/Users/suaadbatis/Library/Android/sdk' (newest first):
+2019-09-27 15:14:55:513 [ADB]     /Users/suaadbatis/Library/Android/sdk/build-tools/28.0.3
+2019-09-27 15:14:55:514 [ADB]     /Users/suaadbatis/Library/Android/sdk/build-tools/27.0.3
+2019-09-27 15:14:55:515 [ADB] Using 'adb' from '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb'
+2019-09-27 15:14:55:515 [AndroidDriver] Retrieving device list
+2019-09-27 15:14:55:515 [ADB] Trying to find a connected android device
+2019-09-27 15:14:55:516 [ADB] Getting connected devices...
+2019-09-27 15:14:55:543 [ADB] 1 device(s) connected
+2019-09-27 15:14:55:543 [AndroidDriver] Looking for a device with Android '8.0'
+2019-09-27 15:14:55:543 [ADB] Setting device id to 2XJDU18301003221
+2019-09-27 15:14:55:544 [ADB] Getting device platform version
+2019-09-27 15:14:55:546 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.build.version.release'
+2019-09-27 15:14:55:604 [ADB] Current device property 'ro.build.version.release': 8.0.0
+2019-09-27 15:14:55:605 [AndroidDriver] Using device: 2XJDU18301003221
+2019-09-27 15:14:55:607 [ADB] Using 'adb' from '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb'
+2019-09-27 15:14:55:607 [ADB] Setting device id to 2XJDU18301003221
+2019-09-27 15:14:55:608 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.build.version.sdk'
+2019-09-27 15:14:55:653 [ADB] Current device property 'ro.build.version.sdk': 26
+2019-09-27 15:14:55:654 [ADB] Device API level: 26
+2019-09-27 15:14:55:654 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-09-27 15:14:55:656 [BaseDriver] Using local app '/Users/suaadbatis/Downloads/LiveProject2019/app/app-release.apk'
+2019-09-27 15:14:55:658 [AndroidDriver] Checking whether app is actually present
+2019-09-27 15:14:55:659 [AndroidDriver] Starting Android session
+2019-09-27 15:14:55:660 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 wait-for-device'
+2019-09-27 15:14:55:673 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell echo ping'
+2019-09-27 15:14:55:702 [AndroidDriver] Pushing settings apk to device...
+2019-09-27 15:14:55:703 [ADB] Getting install status for io.appium.settings
+2019-09-27 15:14:55:704 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package io.appium.settings'
+2019-09-27 15:14:55:771 [ADB] 'io.appium.settings' is installed
+2019-09-27 15:14:55:772 [ADB] Getting package info for 'io.appium.settings'
+2019-09-27 15:14:55:774 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell dumpsys package io.appium.settings'
+2019-09-27 15:14:55:840 [ADB] Using 'aapt' from '/Users/suaadbatis/Library/Android/sdk/build-tools/28.0.3/aapt'
+2019-09-27 15:14:55:865 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (18 > 17)
+2019-09-27 15:14:55:865 [ADB] There is no need to install/upgrade '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2019-09-27 15:14:55:866 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-09-27 15:14:55:866 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell 'pgrep --help; echo $?''
+2019-09-27 15:14:55:925 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell pgrep \^appium\\.settings\$'
+2019-09-27 15:14:56:009 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-09-27 15:14:56:012 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell appops set io.appium.settings android\:mock_location allow'
+2019-09-27 15:14:56:080 [Logcat] Starting logcat capture
+2019-09-27 15:14:56:126 [ADB] Getting device platform version
+2019-09-27 15:14:56:127 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.build.version.release'
+2019-09-27 15:14:56:179 [ADB] Current device property 'ro.build.version.release': 8.0.0
+2019-09-27 15:14:56:179 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell wm size'
+2019-09-27 15:14:56:497 [Logcat] Logcat terminated with code 0, signal null
+2019-09-27 15:14:56:498 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.product.model'
+2019-09-27 15:14:56:519 [ADB] Error sending command, reconnecting device and retrying: shell,getprop,ro.product.model
+2019-09-27 15:14:57:521 [ADB] Trying to find a connected android device
+2019-09-27 15:14:57:521 [ADB] Getting connected devices...
+2019-09-27 15:14:57:537 [ADB] 0 device(s) connected
+2019-09-27 15:14:57:538 [ADB] Could not find devices, restarting adb server...
+2019-09-27 15:14:57:538 [ADB] Restarting adb
+2019-09-27 15:14:57:538 [ADB] Killing adb server on port 5037
+2019-09-27 15:14:57:762 [ADB] Getting connected devices...
+2019-09-27 15:15:00:905 [ADB] 0 device(s) connected
+2019-09-27 15:15:00:907 [ADB] Could not find devices, restarting adb server...
+2019-09-27 15:15:00:907 [ADB] Restarting adb
+2019-09-27 15:15:00:907 [ADB] Killing adb server on port 5037
+2019-09-27 15:15:01:129 [ADB] Getting connected devices...
+2019-09-27 15:15:04:288 [ADB] 1 device(s) connected
+2019-09-27 15:15:04:292 [AndroidDriver] Shutting down Android driver
+2019-09-27 15:15:04:294 [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2019-09-27 15:15:04:296 [Logcat] Stopping logcat capture
+2019-09-27 15:15:04:296 [Logcat] Logcat already stopped
+2019-09-27 15:15:04:296 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell am force-stop io.appium.unlock'
+2019-09-27 15:15:04:365 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-09-27 15:15:04:366 [BaseDriver] Event 'newSessionStarted' logged at 1569586504365 (15:15:04 GMT+0300 (+03))
+2019-09-27 15:15:04:368 [W3C] Encountered internal error running command: Error executing adbExec. Original error: 'Command '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.product.model' exited with code 1'; Stderr: 'error: device '2XJDU18301003221' not found'; Code: '1'
+2019-09-27 15:15:04:368 [W3C] Error: Command '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s 2XJDU18301003221 shell getprop ro.product.model' exited with code 1
+2019-09-27 15:15:04:369 [W3C]     at ChildProcess.proc.on.code (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/teen_process/lib/exec.js:94:19)
+2019-09-27 15:15:04:369 [W3C]     at emitTwo (events.js:126:13)
+2019-09-27 15:15:04:369 [W3C]     at ChildProcess.emit (events.js:214:7)
+2019-09-27 15:15:04:369 [W3C]     at maybeClose (internal/child_process.js:915:16)
+2019-09-27 15:15:04:370 [W3C]     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+2019-09-27 15:15:04:420 [HTTP] <-- POST /wd/hub/session 500 9134 ms - 1087
+2019-09-27 15:15:04:420 [HTTP] 
